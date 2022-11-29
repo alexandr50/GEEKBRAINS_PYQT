@@ -347,6 +347,7 @@ class ServerStorage:
 
 
 
+
 # Отладка
 if __name__ == '__main__':
     test_db = ServerStorage('../server_database.db3')
