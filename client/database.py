@@ -2,7 +2,6 @@ import datetime
 import sys
 
 sys.path.append('../')
-from common.variables import *
 from sqlalchemy import create_engine, Table, Column, Integer, String, Text, MetaData, DateTime
 from sqlalchemy.orm import mapper, sessionmaker
 import os
